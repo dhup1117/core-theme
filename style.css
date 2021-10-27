@@ -1,0 +1,19 @@
+/*
+Theme Name: Core
+Theme URI: https://wp.themexplosion.com/core
+Author: Themexplosion
+Author URI: https://themeforest.net/user/themexplosion
+Description: Core is a unique, modern, beautiful and WordPress theme that fits for all kinds of Business website, Event website, SAAS website, SEO, Agency, IT Services, Portfolio, or Blog website.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: core
+*/
+
+:root {
+    --brand_color: #3535ff;
+    --secondary_color: #1b2953;
+    --p_color: #6b707f;
+    --black_50: #ebebeb;
+    --black_100: #d6d9dc;
+}
