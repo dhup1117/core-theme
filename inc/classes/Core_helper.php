@@ -34,15 +34,11 @@ class Core_Helper_Class {
         ?>
         <div class="logo">
             <a href="<?php echo esc_url(home_url('/')); ?>">
-                <?php
-                if ( !empty($main_logo) ) : ?>
+                <?php if ( !empty($main_logo) ) : ?>
                     <img src="<?php echo esc_url($main_logo) ?>" alt="<?php bloginfo('name'); ?>">
-                    <?php
-                else: ?>
+                    <?php else: ?>
                     <h3> <?php echo get_bloginfo( 'name' ) ?> </h3>
-                    <?php
-                endif;
-                ?>
+                    <?php endif; ?>
             </a>
         </div>
         <?php
@@ -162,13 +158,13 @@ class Core_Helper_Class {
     }
 
     /**
-     * Limit latter
+     * Limit letter
     *
     * @param $string
     * @param $limit_length
     * @param string $suffix
      */
-    function limit_latter($string, $limit_length, $suffix = '...' ) {
+    function limit_letter($string, $limit_length, $suffix = '...' ) {
         if (strlen($string) > $limit_length) {
             echo strip_shortcodes(substr($string, 0, $limit_length) . $suffix);
         }
@@ -200,74 +196,9 @@ class Core_Helper_Class {
         }
     }
 
-    /** Render Meta CSS value
-    *
-    * @param $handle
-    * @param $css_items
-    */
-
-    function meta_css_render( $handle, $css_items ) {
-        $dynamic_css = '';
-        $opt = get_option( 'core_opt' );
-
-        if ( !empty($opt['blog_bg_color']) ) {
-            $dynamic_css .= "
-                .blog-page-bg {
-                    background: linear-gradient( 45deg, {$opt['blog_bg_color']['from']}, {$opt['blog_bg_color']['to']});
-                }
-                .ctn-preloader .animation-preloader .spinner {
-                    border-top-color: {$opt['spinner_color']};
-                    border-bottom-color: {$opt['spinner_color']};
-                }
-                .ctn-preloader .animation-preloader .txt-loading .letters-loading:before {
-                    color: {$opt['preloader_text_color']};
-                }";
-        }
-
-       wp_add_inline_style( $handle, $dynamic_css );
-    }
-
-    /** Render Meta CSS value
-    *
-    * @param $handle
-    * @param $css_items
-    */
-     function acf_css_render( $handle, $css_items ) {
-         $dynamic_css = '';
-         $opt = get_option( 'core_opt' );
-
-         if ( function_exists('get_field') ) {
-             $keys = array_keys($css_items);
-             for ( $i = 0; $i < count($css_items); $i++ ) {
-                 $split_id = explode('__', $keys[$i]);
-                 $meta_id = $split_id[0];
-                 $append = !empty($split_id[1]) ? $split_id[1] : '';
-                 $meta_value = get_field($meta_id);
-                 if ( !empty($meta_value) ) {
-                     $css_i = 1;
-                     foreach ( $css_items[$keys[$i]] as $property => $selector ) {
-                         $css_output = "$selector {";
-                         $css_output .= "$property: $meta_value$append;";
-                         $css_output .= "}";
-                         $dynamic_css .= $css_output;
-                         $css_i++;
-                     }
-                 }
-             }
-         }
-
-         if ( !empty($opt['custom_css']) ) {
-    	    $dynamic_css .= $opt['custom_css'];
-         }
-
-        wp_add_inline_style( $handle, $dynamic_css );
-     }
-
-
      /**
      * Pagination
      **/
-
     function pagination() {
         the_posts_pagination(array(
             'screen_reader_text' => ' ',
@@ -296,16 +227,6 @@ class Core_Helper_Class {
     }
 
     /**
-    * Day link to archive page
-    **/
-    function day_link() {
-        $archive_year   = get_the_time( 'Y' );
-        $archive_month  = get_the_time( 'm' );
-        $archive_day    = get_the_time( 'd' );
-        echo get_day_link( $archive_year, $archive_month, $archive_day);
-    }
-
-    /**
      * estimated reading time
      **/
     function reading_time() {
@@ -320,8 +241,6 @@ class Core_Helper_Class {
         $totalreadingtime = $readingtime . $timer;
         echo esc_html($totalreadingtime);
     }
-
-
 
     /**
      * Post author avatar
@@ -351,40 +270,6 @@ class Core_Helper_Class {
         $cats = get_the_terms(get_the_ID(), $term);
         $cat  = is_array($cats) ? get_category_link($cats[0]->term_id) : '';
         echo esc_url($cat);
-    }
-
-
-
-    /**
-    * Doc Layout
-    * @return mixed|string
-    */
-    function doc_layout() {
-        $opt = get_option('core_opt' );
-        $page_doc_layout = function_exists('get_field') ? get_field('doc_layout') : 'default';
-        if ( $page_doc_layout == 'default' || $page_doc_layout == '' ) {
-            $doc_layout = !empty($opt['doc_layout']) ? $opt['doc_layout'] : 'both_sidebar';
-        } else {
-            $doc_layout = $page_doc_layout;
-        }
-
-        return $doc_layout;
-    }
-
-    /**
-    * Doc width
-    * @return mixed|string
-    */
-    function doc_width() {
-        $opt = get_option('core_opt' );
-        $page_doc_width = function_exists('get_field') ? get_field('doc_width') : 'default';
-        if ( $page_doc_width == 'default' || $page_doc_width == '' ) {
-            $doc_width = isset($opt['doc_width']) ? $opt['doc_width'] : 'boxed';
-        } else {
-            $doc_width = $page_doc_width;
-        }
-
-        return $doc_width;
     }
 
     /**

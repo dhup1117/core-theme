@@ -82,9 +82,17 @@
 	/**
 	 * Classes
 	 */
-	require get_template_directory() . '/inc/classes/Core_Walker_Comment.php';
 
-	require get_template_directory() . '/options/opt-config.php';
+
+	require get_template_directory() . '/options/admin-options.php';
+	require get_template_directory() . '/options/comment-options.php';
+	require get_template_directory() . '/options/customize-options.php';
+	require get_template_directory() . '/options/metabox-options.php';
+	require get_template_directory() . '/options/nav-menu-options.php';
+	require get_template_directory() . '/options/profile-options.php';
+	require get_template_directory() . '/options/shortcode-options.php';
+	require get_template_directory() . '/options/taxonomy-options.php';
+	require get_template_directory() . '/options/widget-options.php';
 
 	/**
 	 * Required plugins activation
@@ -95,7 +103,7 @@
 	/**
 	 * Bootstrap Nav Walker
 	 */
-	require get_template_directory() . '/inc/classes/Core_Nav_Walker.php';
+
 
 
 	/**

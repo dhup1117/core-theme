@@ -1,1 +1,180 @@
-{"last_tab":"1","header_layout":"h_layout_1","main_logo":{"url":"https:\/\/wordpress.creativegigs.net\/core\/wp-content\/themes\/core\/assets\/img\/core_01.svg","id":"","height":"","width":"","thumbnail":""},"retina_logo":{"url":"https:\/\/wordpress.creativegigs.net\/core\/wp-content\/themes\/core\/assets\/img\/core_01.svg","id":"","height":"","width":"","thumbnail":""},"logo_dimensions":{"width":"","height":"","units":"px"},"logo_padding":{"units":"","padding-top":"","padding-right":"","padding-bottom":"","padding-left":""},"is_menu_btn":"1","menu_btn_label":"Log in","menu_btn_url":"#","menu_btn_target":"_self","menu_btn_font_color":"","menu_btn_hover_font_color":"","menu_btn_padding":{"units":"","padding-top":"","padding-right":"","padding-bottom":"","padding-left":""},"is_action_menu_btn":"1","menu_action_btn_label":"Get Started","menu_action_btn_url":"#","menu_action_btn_target":"_self","menu_action_btn_padding":{"units":"","padding-top":"","padding-right":"","padding-bottom":"","padding-left":""},"menu_action_btn_font_color":"","menu_action_btn_hover_font_color":"","menu_action_btn_bg_color":"","menu_action_btn_hover_bg_color":"","menu_action_btn_border_color":"","menu_action_btn_hover_border_color":"","footer_column":"3","footer_column_padding":{"units":"","padding-top":"","padding-right":"","padding-bottom":"","padding-left":""},"fs_illustration":{"url":"https:\/\/wordpress.creativegigs.net\/core\/wp-content\/themes\/core\/assets\/img\/footer\/leaf_footter.png","id":"","height":"","width":"","thumbnail":""},"scroll_top":"1","widget_title_color":"#101621","footer_bd":{"url":"https:\/\/wordpress.creativegigs.net\/core\/wp-content\/themes\/core\/assets\/img\/ils_01.svg","id":"","height":"","width":"","thumbnail":""},"copyright_txt":"\u00a9 2021 All Rights Reserved by Spider-Themes","footer_btm_links":[{"title":"Privacy","url":"#","sort":"0","attachment_id":"","image":"","height":"","width":"","thumb":""},{"title":"Security","url":"#","sort":"1","attachment_id":"","image":"","height":"","width":"","thumb":""},{"title":"Terms","url":"#","sort":"2","attachment_id":"","image":"","height":"","width":"","thumb":""}],"is_preloader":"1","preloader_text":"Core","preloader_text_color":"#655C97","spinner_color":"#655C97","doc_result_limit":"-1","is_ajax_search_tab":"1","blog_title":"1","page_title":"Check our company inside story","page_subtitle":"You will find here our company news and latest update","blog_layout":"b_w_r_s","blog_column":"6","post_title_length":"50","blog_excerpt":"40","blog_continue_read":"Continue Reading","is_post_date":"1","blog_bg_color":{"from":"#FFFBF2","to":"#EDFFFD"},"is_featured_img":"1","is_single_post_date":"1","is_post_tag":"1","is_share_icon":"1","is_facebook":"1","facebook_url":"#","is_twitter":"0","twitter_url":"#","is_instagram":"0","instagram_url":"#","is_linkedin":"0","linkedin_url":"#","is_youtube":"1","youtube_url":"#","is_dribbble":"0","dribbble_url":"#","is_github":"0","github_url":"#","faq_title":"1","faq_page_title":"Help & Support","faq_page_subtitle":"Advice and answers from our expert and proffesional core Team","faq_form_placeholder":"I am looking for ...","is_faq_date":"1","is_faq_author":"1","team_social_title":"Follow & Contact","error_heading":"Error. We can\u2019t find the page you\u2019re looking for.","error_subtitle":"Sorry for the inconvenience. Go to our homepage or check out our latest collections for Fashion, Chair, Decoration...","error_image":{"url":"https:\/\/wordpress.creativegigs.net\/core\/wp-content\/themes\/core\/assets\/img\/404.svg","id":"","height":"","width":"","thumbnail":""},"error_question":{"url":"https:\/\/wordpress.creativegigs.net\/core\/wp-content\/themes\/core\/assets\/img\/404-q.svg","id":"","height":"","width":"","thumbnail":""},"custom_css":"","custom_js":"jQuery(document).ready(function(){\r\n\r\n});","redux-backup":1}
+{
+  "last_tab": "1",
+  "header_layout": "h_layout_1",
+  "main_logo": {
+    "url": "https:\/\/wordpress.themexplosion.net\/core\/wp-content\/themes\/core\/assets\/img\/core_01.svg",
+    "id": "",
+    "height": "",
+    "width": "",
+    "thumbnail": ""
+  },
+  "retina_logo": {
+    "url": "https:\/\/wordpress.themexplosion.net\/core\/wp-content\/themes\/core\/assets\/img\/core_01.svg",
+    "id": "",
+    "height": "",
+    "width": "",
+    "thumbnail": ""
+  },
+  "logo_dimensions": {
+    "width": "",
+    "height": "",
+    "units": "px"
+  },
+  "logo_padding": {
+    "units": "",
+    "padding-top": "",
+    "padding-right": "",
+    "padding-bottom": "",
+    "padding-left": ""
+  },
+  "is_menu_btn": "1",
+  "menu_btn_label": "Log in",
+  "menu_btn_url": "#",
+  "menu_btn_target": "_self",
+  "menu_btn_font_color": "",
+  "menu_btn_hover_font_color": "",
+  "menu_btn_padding": {
+    "units": "",
+    "padding-top": "",
+    "padding-right": "",
+    "padding-bottom": "",
+    "padding-left": ""
+  },
+  "is_action_menu_btn": "1",
+  "menu_action_btn_label": "Get Started",
+  "menu_action_btn_url": "#",
+  "menu_action_btn_target": "_self",
+  "menu_action_btn_padding": {
+    "units": "",
+    "padding-top": "",
+    "padding-right": "",
+    "padding-bottom": "",
+    "padding-left": ""
+  },
+  "menu_action_btn_font_color": "",
+  "menu_action_btn_hover_font_color": "",
+  "menu_action_btn_bg_color": "",
+  "menu_action_btn_hover_bg_color": "",
+  "menu_action_btn_border_color": "",
+  "menu_action_btn_hover_border_color": "",
+  "footer_column": "3",
+  "footer_column_padding": {
+    "units": "",
+    "padding-top": "",
+    "padding-right": "",
+    "padding-bottom": "",
+    "padding-left": ""
+  },
+  "fs_illustration": {
+    "url": "https:\/\/wordpress.themexplosion.net\/core\/wp-content\/themes\/core\/assets\/img\/footer\/leaf_footter.png",
+    "id": "",
+    "height": "",
+    "width": "",
+    "thumbnail": ""
+  },
+  "scroll_top": "1",
+  "widget_title_color": "#101621",
+  "footer_bd": {
+    "url": "https:\/\/wordpress.themexplosion.net\/core\/wp-content\/themes\/core\/assets\/img\/ils_01.svg",
+    "id": "",
+    "height": "",
+    "width": "",
+    "thumbnail": ""
+  },
+  "copyright_txt": "\u00a9 2021 All Rights Reserved by Spider-Themes",
+  "footer_btm_links": [
+    {
+      "title": "Privacy",
+      "url": "#",
+      "sort": "0",
+      "attachment_id": "",
+      "image": "",
+      "height": "",
+      "width": "",
+      "thumb": ""
+    },
+    {
+      "title": "Security",
+      "url": "#",
+      "sort": "1",
+      "attachment_id": "",
+      "image": "",
+      "height": "",
+      "width": "",
+      "thumb": ""
+    },
+    {
+      "title": "Terms",
+      "url": "#",
+      "sort": "2",
+      "attachment_id": "",
+      "image": "",
+      "height": "",
+      "width": "",
+      "thumb": ""
+    }
+  ],
+  "is_preloader": "1",
+  "preloader_text": "Core",
+  "preloader_text_color": "#655C97",
+  "spinner_color": "#655C97",
+  "doc_result_limit": "-1",
+  "is_ajax_search_tab": "1",
+  "blog_title": "1",
+  "page_title": "Check our company inside story",
+  "page_subtitle": "You will find here our company news and latest update",
+  "blog_layout": "b_w_r_s",
+  "blog_column": "6",
+  "post_title_length": "50",
+  "blog_excerpt": "40",
+  "blog_continue_read": "Continue Reading",
+  "is_post_date": "1",
+  "blog_bg_color": {
+    "from": "#FFFBF2",
+    "to": "#EDFFFD"
+  },
+  "is_featured_img": "1",
+  "is_single_post_date": "1",
+  "is_post_tag": "1",
+  "is_share_icon": "1",
+  "is_facebook": "1",
+  "facebook_url": "#",
+  "is_twitter": "0",
+  "twitter_url": "#",
+  "is_instagram": "0",
+  "instagram_url": "#",
+  "is_linkedin": "0",
+  "linkedin_url": "#",
+  "is_youtube": "1",
+  "youtube_url": "#",
+  "is_dribbble": "0",
+  "dribbble_url": "#",
+  "is_github": "0",
+  "github_url": "#",
+  "faq_title": "1",
+  "faq_page_title": "Help & Support",
+  "faq_page_subtitle": "Advice and answers from our expert and proffesional core Team",
+  "faq_form_placeholder": "I am looking for ...",
+  "is_faq_date": "1",
+  "is_faq_author": "1",
+  "team_social_title": "Follow & Contact",
+  "error_heading": "Error. We can\u2019t find the page you\u2019re looking for.",
+  "error_subtitle": "Sorry for the inconvenience. Go to our homepage or check out our latest collections for Fashion, Chair, Decoration...",
+  "error_image": {
+    "url": "https:\/\/wordpress.themexplosion.net\/core\/wp-content\/themes\/core\/assets\/img\/404.svg",
+    "id": "",
+    "height": "",
+    "width": "",
+    "thumbnail": ""
+  },
+  "error_question": {
+    "url": "https:\/\/wordpress.themexplosion.net\/core\/wp-content\/themes\/core\/assets\/img\/404-q.svg",
+    "id": "",
+    "height": "",
+    "width": "",
+    "thumbnail": ""
+  },
+  "custom_css": "",
+  "custom_js": "jQuery(document).ready(function(){\r\n\r\n});",
+  "redux-backup": 1
+}

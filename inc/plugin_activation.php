@@ -50,27 +50,15 @@ function core_register_required_plugins() {
         ),
 
 		array(
-            'name'          => esc_html__( 'Advanced Custom Fields-pro', 'core' ), // The plugin name.
-            'slug'          => 'advanced-custom-fields-pro', // The plugin slug (typically the folder name).
-            'source'        => 'https://wordpress.creativegigs.net/3rd-plugins/advanced-custom-fields-pro.zip', // The plugin source.
+            'name'          => esc_html__( 'Codestar Framework', 'core' ), // The plugin name.
+            'slug'          => 'themexplosion-csf', // The plugin slug (typically the folder name).
+            'source'        => 'https://resources.themexplosion.com/csf.zip', // The plugin source.
             'required'      => true, // If false, the plugin is only 'recommended' instead of required.
         ),
-
-		array(
-			'name'          => esc_html__( 'Redux Framework', 'core' ),
-			'slug'          => 'redux-framework',
-			'required'      => true,
-		),
 
         array(
             'name'          => esc_html__( 'Contact Form 7', 'core' ),
             'slug'          => 'contact-form-7',
-            'required'      => false,
-        ),
-
-		array(
-            'name'          => esc_html__( 'Classic Widgets', 'core' ),
-            'slug'          => 'classic-widgets',
             'required'      => false,
         ),
 
